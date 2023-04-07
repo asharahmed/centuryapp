@@ -40,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
     boxShadow: theme.shadows[3],
     marginBottom: theme.spacing(3),
     maxWidth: 900, // Set max width to match first card
-    height: 10000,
+    height: '100vh',
    
   },
   title: {
@@ -106,7 +106,7 @@ function App() {
       ))}
 
 
-      <Card className={classes.card} style={{ height: "40vh" }}>
+      <Card className={classes.card}>
         <CardContent>
           <Typography variant="h5" component="h2" className={classes.title}>
             Visualization
@@ -115,7 +115,7 @@ function App() {
         </CardContent>
       </Card>
 
-      <Card className={classes.card} style={{ height: "50vh" }}>
+      <Card className={classes.card} style={{height: "35vh"}}>
         <CardContent>
           <Typography variant="h5" component="h2" className={classes.title}>
             Century Initiative
@@ -132,7 +132,7 @@ function App() {
         </CardContent>
       </Card>
 
-      <Card className={classes.card} style={{ height: "10vh" }}>
+      <Card className={classes.card} >
         <CardContent>
           <Typography variant="h5" component="h2" className={classes.title}>
           By 2040, 1 in 3 Canadians will be immigrants (or have a parent who is)
