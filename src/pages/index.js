@@ -80,7 +80,7 @@ function App() {
           </Typography>
           <Typography variant="body1" component="p" className={classes.title}>
             
-            <href a="https://www150.statcan.gc.ca/n1/daily-quotidien/220908/dq220908a-eng.htm">By 2040, 1/3 Canadians will be born abroad or have a parent who is.</href>
+            By 2040, 1/3 Canadians will be born abroad or have a parent who is.
             <br></br>
             <a href="https://www150.statcan.gc.ca/n1/daily-quotidien/220908/dq220908a-eng.htm">Source: Statistics Canada</a>
             
