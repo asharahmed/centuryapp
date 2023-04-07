@@ -115,7 +115,7 @@ function App() {
         </CardContent>
       </Card>
 
-      <Card className={classes.card} style={{ height: "30vh" }}>
+      <Card className={classes.card} style={{ height: "50vh" }}>
         <CardContent>
           <Typography variant="h5" component="h2" className={classes.title}>
             Century Initiative
@@ -132,7 +132,7 @@ function App() {
         </CardContent>
       </Card>
 
-      <Card className={classes.card} style={{ height: "30vh" }}>
+      <Card className={classes.card} style={{ height: "10vh" }}>
         <CardContent>
           <Typography variant="h5" component="h2" className={classes.title}>
           By 2040, 1 in 3 Canadians will be immigrants (or have a parent who is)
