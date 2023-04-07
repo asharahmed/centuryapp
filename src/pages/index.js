@@ -135,7 +135,7 @@ function App() {
       <Card className={classes.card} style={{ height: "30vh" }}>
         <CardContent>
           <Typography variant="h5" component="h2" className={classes.title}>
-          <h2>By 2040, 1 in 3 Canadians will be immigrants (or have a parent who is)</h2>
+          By 2040, 1 in 3 Canadians will be immigrants (or have a parent who is)
           </Typography>
           <Typography variant="body1" component="p" className={classes.title}>
             
