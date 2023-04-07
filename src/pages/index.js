@@ -34,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.primary.main || '#FFFFFF',
   },
   card: {
-    minWidth: 900,
+    minWidth: '80vw',
     padding: theme.spacing(3),
     borderRadius: theme.shape.borderRadius,
     boxShadow: theme.shadows[3],
