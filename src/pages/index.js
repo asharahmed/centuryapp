@@ -5,13 +5,20 @@ import { makeStyles } from '@mui/styles';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Header from './Header';
 import '@fontsource/roboto';
+import PieChart from './PieChart';
 import {CssBaseline } from '@mui/material';
 
 
-const theme = createTheme({
+
+const data = [
+  {label: 'Canada', value: "2"},
+  {label: 'abroad', value: "1"},
+];
+
+const theme = createTheme({ 
   palette: {
     background: {
-      default: '#fff', // Set a default background color
+      default: '#FFFFFF', // Set a default background color
     },
   },
 });
@@ -19,16 +26,19 @@ const theme = createTheme({
 const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
+    flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
     height: '100vh',
-    backgroundColor: theme.palette.background.default,
+    backgroundColor: theme.palette.primary.main || '#FFFFFF',
   },
   card: {
-    minWidth: 275,
+    minWidth: 900,
     padding: theme.spacing(3),
     borderRadius: theme.shape.borderRadius,
     boxShadow: theme.shadows[3],
+    marginBottom: theme.spacing(3),
+    maxWidth: 900, // Set max width to match first card
   },
   title: {
     marginBottom: theme.spacing(2),
@@ -48,6 +58,37 @@ function App() {
           <Visualization />
         </CardContent>
       </Card>
+      <Card className={classes.card}>
+        <CardContent>
+          <Typography variant="h5" component="h2" className={classes.title}>
+            Century Initiative
+          </Typography>
+          <Typography variant="body1" component="p">
+            The Century Initiative is a group of Canadians committed to building a prosperous, vibrant, and globally influential Canada by growing the population to 100 million by 2100.
+
+            
+            <br></br><br></br>
+            
+            To find out more, visit their website at <a href="https://www.centuryinitiative.ca/">https://www.centuryinitiative.ca/.</a>
+          </Typography>
+        </CardContent>
+      </Card>
+      <Card className={classes.card}>
+        <CardContent>
+          <Typography variant="h5" component="h2" className={classes.title}>
+          By 2040, 1 in 3 Canadians will be immigrants
+          </Typography>
+          <Typography variant="body1" component="p" className={classes.title}>
+            
+            <href a="https://www150.statcan.gc.ca/n1/daily-quotidien/220908/dq220908a-eng.htm">By 2040, 1/3 Canadians will be born abroad or have a parent who is.</href>
+            <br></br>
+            <a href="https://www150.statcan.gc.ca/n1/daily-quotidien/220908/dq220908a-eng.htm">Source: Statistics Canada</a>
+            
+            </Typography>
+          <PieChart data={data}/>
+        </CardContent>
+      </Card>
+
     </div>
   );
 }
