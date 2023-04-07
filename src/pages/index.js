@@ -1,11 +1,12 @@
 import React from 'react';
-import { Card, CardContent, Typography } from '@mui/material';
+import { Card, CardContent, CardActions, Button, Typography } from '@mui/material';
 import Visualization from './visualization';
 import { makeStyles } from '@mui/styles';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Header from './Header';
 import '@fontsource/roboto';
 import PieChart from './PieChart';
+import { useState } from 'react';
 import {CssBaseline } from '@mui/material';
 
 
@@ -39,18 +40,73 @@ const useStyles = makeStyles((theme) => ({
     boxShadow: theme.shadows[3],
     marginBottom: theme.spacing(3),
     maxWidth: 900, // Set max width to match first card
+    height: 10000,
+   
   },
   title: {
     marginBottom: theme.spacing(2),
   },
+  expandedCard: {
+    height: 'auto',
+  },
 }));
 
+const cards = [
+  
+];
+
 function App() {
+
+  const [expandedCard, setExpandedCard] = useState(null);
+
   const classes = useStyles();
+
+  const handleCardClick = (index) => {
+    if (expandedCard === index) {
+      // If the clicked card is already expanded, collapse it
+      setExpandedCard(null);
+    } else {
+      // Otherwise, expand the clicked card
+      setExpandedCard(index);
+    }
+  };
+
+  const isExpanded = (index) => expandedCard === index;
+
+  const handleClose = () => {
+    setExpandedCard(null);
+  };
 
   return (
     <div className={classes.root}>
-      <Card className={classes.card}>
+      
+
+      {cards.map((card, index) => (
+        <Card
+          key={index}
+          className={`${classes.card} ${isExpanded(index) ? classes.expandedCard : ''}`}
+          onClick={() => handleCardClick(index)}
+        >
+          <CardContent>
+            <Typography variant="h5" component="h2" className={classes.title}>
+              {card.title}
+            </Typography>
+            <Typography variant="body1" component="p">
+              {card.content}
+            </Typography>
+          </CardContent>
+          {isExpanded(index) && (
+            <CardActions>
+              <Button size="small" onClick={handleClose}>
+                Close
+              </Button>
+            </CardActions>
+          )}
+        </Card>
+      ))}
+
+
+      <Card className={classes.card} style={{ height: "40vh" }}>
         <CardContent>
           <Typography variant="h5" component="h2" className={classes.title}>
             Visualization
@@ -58,7 +114,8 @@ function App() {
           <Visualization />
         </CardContent>
       </Card>
-      <Card className={classes.card}>
+
+      <Card className={classes.card} style={{ height: "30vh" }}>
         <CardContent>
           <Typography variant="h5" component="h2" className={classes.title}>
             Century Initiative
@@ -66,17 +123,19 @@ function App() {
           <Typography variant="body1" component="p">
             The Century Initiative is a group of Canadians committed to building a prosperous, vibrant, and globally influential Canada by growing the population to 100 million by 2100.
 
-            
             <br></br><br></br>
             
             To find out more, visit their website at <a href="https://www.centuryinitiative.ca/">https://www.centuryinitiative.ca/.</a>
+
+            <br></br><b>This web application is not associated with the Century Project.</b>
           </Typography>
         </CardContent>
       </Card>
-      <Card className={classes.card}>
+
+      <Card className={classes.card} style={{ height: "30vh" }}>
         <CardContent>
           <Typography variant="h5" component="h2" className={classes.title}>
-          By 2040, 1 in 3 Canadians will be immigrants
+          <h2>By 2040, 1 in 3 Canadians will be immigrants (or have a parent who is)</h2>
           </Typography>
           <Typography variant="body1" component="p" className={classes.title}>
             
