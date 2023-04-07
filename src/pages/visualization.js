@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import * as d3 from 'd3';
 import data from '../data.json';
+import '@fontsource/roboto';
 
 const Visualization = () => {
   const canvasRef = useRef();
@@ -48,7 +49,7 @@ const Visualization = () => {
   }, []);
 
   return (
-    <div>
+    <div style={{ fontFamily: "Roboto" }}>
       <h1>Population Growth Over Time</h1>
       <div ref={canvasRef}></div>
     </div>
