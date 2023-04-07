@@ -12,18 +12,21 @@ import SettingsIcon from '@mui/icons-material/Settings';
 const drawerWidth = 240;
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-    display: 'flex',
-  },
-  drawer: {
-    width: drawerWidth,
-    flexShrink: 0,
-  },
-  drawerPaper: {
-    width: drawerWidth,
-  },
-  toolbar: theme.mixins.toolbar,
-}));
+    root: {
+      display: 'flex',
+    },
+    drawer: {
+      width: drawerWidth,
+      flexShrink: 0,
+    },
+    drawerPaper: {
+      width: drawerWidth,
+    },
+    toolbar: theme.mixins.toolbar || {
+      minHeight: 56, // default height for a MUI toolbar
+    },
+  }));
+  
 
 const Sidebar = () => {
   const classes = useStyles();

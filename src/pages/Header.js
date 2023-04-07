@@ -1,6 +1,7 @@
 import { AppBar, Toolbar, Typography } from '@mui/material';
 import { makeStyles } from '@mui/styles';
 import clsx from 'clsx';
+import { useEffect, useState } from 'react';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -20,17 +21,24 @@ const useStyles = makeStyles((theme) => ({
 function Header() {
   const classes = useStyles();
   const appBarClasses = clsx(classes.appBar, 'appBar');
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
 
   return (
-    <header>
-      <AppBar position="static" className={appBarClasses}>
-        <Toolbar>
-          <Typography variant="h6" className={classes.title}>
-            Century Initiative Visualization
-          </Typography>
-        </Toolbar>
-      </AppBar>
-    </header>
+    isClient && (
+      <header>
+        <AppBar position="static" className={appBarClasses}>
+          <Toolbar>
+            <Typography variant="h6" className={classes.title}>
+              Century Initiative Visualization
+            </Typography>
+          </Toolbar>
+        </AppBar>
+      </header>
+    )
   );
 }
 
