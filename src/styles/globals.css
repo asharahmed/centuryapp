@@ -108,3 +108,8 @@ a {
     color-scheme: dark;
   }
 }
+
+.card {
+  height: 600px;
+  overflow-y: scroll;
+}
