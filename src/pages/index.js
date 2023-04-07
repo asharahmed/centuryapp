@@ -4,6 +4,7 @@ import Visualization from './visualization';
 import { makeStyles } from '@mui/styles';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Header from './Header';
+import '@fontsource/roboto';
 import {CssBaseline } from '@mui/material';
 
 
