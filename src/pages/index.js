@@ -13,7 +13,7 @@ import {CssBaseline } from '@mui/material';
 
 const data = [
   {label: 'Canada', value: "2"},
-  {label: 'abroad', value: "1"},
+  {label: 'Abroad', value: "1"},
 ];
 
 const theme = createTheme({ 
