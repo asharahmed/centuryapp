@@ -1,3 +1,9 @@
+# Century Web App Visualization 
+
+![alt text](https://github.com/asharahmed/centuryapp/blob/main/ss.png?raw=true)
+
+This is a web app that visualizes the projected population growth, among other statistics, if the Century Project is completed.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -11,6 +17,8 @@ yarn dev
 # or
 pnpm dev
 ```
+
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
