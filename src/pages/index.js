@@ -57,6 +57,7 @@ const cards = [
 
 function App() {
 
+  
   const [expandedCard, setExpandedCard] = useState(null);
 
   const classes = useStyles();
@@ -79,7 +80,9 @@ function App() {
 
   return (
     <div className={classes.root}>
-      
+      <link rel="icon" type="image/png" href="../styles/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="../styles/favicon-16x16.png" sizes="16x16" />
+
 
       {cards.map((card, index) => (
         <Card
@@ -154,6 +157,7 @@ function App() {
 
 export default function ThemedApp() {
   return (
+
     
     <ThemeProvider theme={theme}>
       <Header/>
