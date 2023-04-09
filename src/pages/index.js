@@ -14,6 +14,7 @@ import "@fontsource/roboto";
 import PieChart from "./PieChart";
 import { useState } from "react";
 import { CssBaseline } from "@mui/material";
+import Footer from './Footer';
 
 const data = [
   { label: "Canada", value: "2" },
@@ -61,9 +62,20 @@ const useStyles = makeStyles((theme) => ({
     boxShadow: theme.shadows[3],
     marginBottom: theme.spacing(3),
   },
+  footer: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: theme.palette.primary.main || "#FFFFFF",
+    padding: theme.spacing(3),
+    marginTop: "auto",
+    width: "100%",
+  },
 }));
 
 const cards = [];
+
 
 function App() {
   const [expandedCard, setExpandedCard] = useState(null);
@@ -148,6 +160,21 @@ function App() {
           <PieChart data={data}/>
         </CardContent>
       </Card>
+      <Card className={classes.card}>
+        <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+          <Typography variant="h5" component="h2" className={classes.title}>
+            <b>More about Canada&apos;s Immigration Policy</b>
+            </Typography>
+          <Typography variant="body1" component="p">
+          "Canada has a long history of immigration. Millions of people from all over the world have chosen, and continue to choose, Canada as their new home. <br/><br/>
+          In 2021, more than 8.3 million people, or almost one-quarter (23.0%) of the population, were, or had ever been, a landed immigrant or permanent resident in Canada. <br/><br/>
+          This was the largest proportion since Confederation, topping the previous 1921 record of 22.3%, and the highest among the G7."<br/>
+          <br/>
+          <a href="https://www150.statcan.gc.ca/n1/daily-quotidien/221026/dq221026a-eng.htm">Source: Statistics Canada</a>
+            </Typography>
+            </CardContent>
+      </Card>
+      <Footer />
     </div>
   );
 }
