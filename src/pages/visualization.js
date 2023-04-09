@@ -49,7 +49,7 @@ const Visualization = () => {
   }, []);
 
   return (
-    <div style={{ fontFamily: "Roboto" }}>
+    <div style={{ fontFamily: "Roboto" , textAlign: 'center'}}>
       <h1>Population Growth Over Time</h1>
       <div ref={canvasRef}></div>
     </div>

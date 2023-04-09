@@ -113,7 +113,7 @@ function App() {
       <Card className={classes.card} style={{height: "35vh"}}>
         <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
           <Typography variant="h5" component="h2" className={classes.title}>
-            Century Initiative
+            <b>The Century Initiative</b>
           </Typography>
           <Typography variant="body1" component="p">
             The Century Initiative is a group of Canadians committed to building a prosperous, vibrant, and globally influential Canada by growing the population to 100 million by 2100.
@@ -126,7 +126,7 @@ function App() {
       <Card className={classes.card} >
         <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
           <Typography variant="h5" component="h2" className={classes.title}>
-            By 2040, 1 in 3 Canadians will be immigrants (or have a parent who is)
+            <b>By 2040, 1 in 3 Canadians will be immigrants (or have a parent who is)</b>
           </Typography>
           <Typography variant="body1" component="p" className={classes.title}>
             By 2040, 1/3 Canadians will be born abroad or have a parent who is.
