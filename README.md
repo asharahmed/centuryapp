@@ -1,4 +1,4 @@
-# Century Web App Visualization 
+# Century Web App Visualization 💹
 
 ![alt text](https://github.com/asharahmed/centuryapp/blob/main/ss1.png?raw=true)
 
