@@ -2,7 +2,7 @@
 
 ![alt text](https://github.com/asharahmed/centuryapp/blob/main/ss1.png?raw=true)
 
-This is a web app that visualizes the projected population growth, among other statistics, if the [Century Initative](https://www.centuryinitiative.ca/) is completed.
+📊 This is a web app that visualizes Canada's projected population growth, among other statistics, if the [Century Initative](https://www.centuryinitiative.ca/) is completed.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
