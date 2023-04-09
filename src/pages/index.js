@@ -55,6 +55,11 @@ const useStyles = makeStyles((theme) => ({
   topCard: {
     maxWidth: '100%',
     padding: '0 16px',
+    minWidth: "80vw",
+    padding: theme.spacing(3),
+    borderRadius: theme.shape.borderRadius,
+    boxShadow: theme.shadows[3],
+    marginBottom: theme.spacing(3),
   },
 }));
 
