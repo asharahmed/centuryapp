@@ -107,7 +107,10 @@ function App() {
           <Typography variant="h5" component="h2" className={classes.title}>
             Visualization
           </Typography>
+          <div style={{ width: '100%', overflowX: 'auto' }}>
+
           <Visualization />
+          </div>
         </CardContent>
       </Card>
       <Card className={classes.card} style={{height: "35vh"}}>
