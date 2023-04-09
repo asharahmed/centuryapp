@@ -103,7 +103,7 @@ function App() {
         </Card>
       ))}
       <Card className={classes.card}>
-        <CardContent>
+        <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
           <Typography variant="h5" component="h2" className={classes.title}>
             Visualization
           </Typography>
@@ -111,7 +111,7 @@ function App() {
         </CardContent>
       </Card>
       <Card className={classes.card} style={{height: "35vh"}}>
-        <CardContent>
+        <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
           <Typography variant="h5" component="h2" className={classes.title}>
             Century Initiative
           </Typography>
@@ -123,8 +123,8 @@ function App() {
           </Typography>
         </CardContent>
       </Card>
-      <Card className={classes.card}>
-        <CardContent>
+      <Card className={classes.card} >
+        <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
           <Typography variant="h5" component="h2" className={classes.title}>
             By 2040, 1 in 3 Canadians will be immigrants (or have a parent who is)
           </Typography>
