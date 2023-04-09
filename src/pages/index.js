@@ -52,6 +52,10 @@ const useStyles = makeStyles((theme) => ({
   expandedCard: {
     height: "auto",
   },
+  topCard: {
+    maxWidth: '100%',
+    padding: '0 16px',
+  },
 }));
 
 const cards = [];
@@ -102,7 +106,7 @@ function App() {
           )}
         </Card>
       ))}
-      <Card className={classes.card}>
+      <Card className={classes.topCard}>
         <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
           <Typography variant="h5" component="h2" className={classes.title}>
             Visualization
