@@ -250,7 +250,7 @@ function App() {
           <center><b>Canada needs you.</b></center><br/>
           
             </Typography>
-            <Button variant="contained" id="btn1" color="info" href="https://www.ourcommons.ca">Contact your MP</Button><br/>
+            <Button variant="contained" id="btn1" color="info" href="https://www.ourcommons.ca/members/en">Contact your MP</Button><br/>
             </CardContent>
             <Button variant="contained" id="btn2" color="primary" href="https://www.centuryinitiative.ca/">Join the Movement</Button><br/>
       </Card>
