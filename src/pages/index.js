@@ -142,7 +142,7 @@ function App() {
           )}
         </Card>
       ))}
-      <Card className={classes.topCard}>
+      <Card className={`${classes.topCard} ${classes.bounce}`}>
         <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
           <Typography variant="h5" component="h2" className={classes.title}>
             Visualization
@@ -153,7 +153,7 @@ function App() {
           </div>
         </CardContent>
       </Card>
-      <Card className={classes.card}>
+      <Card className={`${classes.card} ${classes.bounce}`}>
         <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
           <Typography variant="h5" component="h2" className={classes.title}>
             <b>The Century Initiative</b>
@@ -166,7 +166,7 @@ function App() {
           </Typography>
         </CardContent>
       </Card>
-      <Card className={classes.card} >
+      <Card className={`${classes.card} ${classes.bounce}`} >
         <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
           <Typography variant="h5" component="h2" className={classes.title}>
             <b>By 2040, 1 in 3 Canadians will be immigrants (or have a parent who is)</b>
@@ -179,7 +179,7 @@ function App() {
           <PieChart data={data}/>
         </CardContent>
       </Card>
-      <Card className={classes.card}>
+      <Card className={`${classes.card} ${classes.bounce}`}>
         <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
           <Typography variant="h5" component="h2" className={classes.title}>
             <b>More about Canada&apos;s Immigration Policy</b>
@@ -193,7 +193,7 @@ function App() {
             </Typography>
             </CardContent>
       </Card>
-      <Card className={classes.card}>
+      <Card className={`${classes.card} ${classes.bounce}`}>
         <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
           <Typography variant="h5" component="h2" className={classes.title}>
             <b> Why does Canada need an influx of people?</b>
@@ -211,7 +211,7 @@ function App() {
             </Typography>
             </CardContent>
       </Card>
-      <Card className={classes.card}>
+      <Card className={`${classes.card} ${classes.bounce}`}>
         <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
           <Typography variant="body1" component="p">
             <a href="https://aahmed.ca"><b>Copyright © 2023 Ashar Ahmed. Made in Canada.</b></a>
