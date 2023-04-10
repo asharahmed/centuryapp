@@ -40,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
   },
 
   bounce: {
-    animation: "$bounce 0.25s ease-in",
+    animation: "$bounce 0.1s ease-in",
   },
   "@keyframes bounce": {
     "0%": {
