@@ -191,7 +191,13 @@ function App() {
             </Typography>
             </CardContent>
       </Card>
-      
+      <Card className={classes.card}>
+        <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+          <Typography variant="body1" component="p">
+            Copyright © 2023 Ashar Ahmed. Made in Canada.
+            </Typography>
+            </CardContent>
+      </Card>
     </div>
   );
 }
