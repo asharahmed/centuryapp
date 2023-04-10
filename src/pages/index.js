@@ -252,7 +252,13 @@ function App() {
             <Button variant="contained" color="primary" href="https://www.centuryinitiative.ca/">Join the Movement</Button>
             </CardContent>
       </Card>
-
+      <Card className={`${classes.card} ${classes.bounce}`}>
+        <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+          <Typography variant="body1" component="p">
+            <a href="https://greennewyork.us"><b>Inspired by the Democratic Socialists of America's <i><u>Green New York campaign</u></i>.</b></a>
+            </Typography>
+            </CardContent>
+      </Card>
       <Card className={`${classes.card} ${classes.bounce}`}>
         <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
           <Typography variant="body1" component="p">
@@ -260,13 +266,7 @@ function App() {
             </Typography>
             </CardContent>
       </Card>
-      <Card className={`${classes.card} ${classes.bounce}`}>
-        <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-          <Typography variant="body1" component="p">
-            <a href="https://greennewyork.us"><b>Inspired by the NYC Democratic Socialists of America's <u>Green New York Project</u>.</b></a>
-            </Typography>
-            </CardContent>
-      </Card>
+      
     </div>
   );
 }
