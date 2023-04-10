@@ -67,7 +67,7 @@ const PieChart = ({ data }) => {
   }, [data]);
 
   return (
-    <svg ref={svgRef} width="400" height="400" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid meet">
+    <svg ref={svgRef} height="400" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid meet">
       <g />
     </svg>
   );
