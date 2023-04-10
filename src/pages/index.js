@@ -247,7 +247,7 @@ function App() {
             <b> We can&apos;t do it alone.</b>
             </Typography>
           <Typography variant="body1" component="p">
-            <b>Canada needs you.</b>
+            <b>Canada needs you.</b><br/>
             <Button variant="contained" color="primary" href="https://www.centuryinitiative.ca/">Join the Movement</Button>
             </Typography>
             </CardContent>
