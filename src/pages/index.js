@@ -170,7 +170,7 @@ function App() {
           <Typography variant="body1" component="p">
             The Century Initiative is a group of Canadians committed to building a prosperous, vibrant, and globally influential Canada by growing the population to 100 million by 2100.
             <br/><br/>
-            To find out more, visit their website at <a href="https://www.centuryinitiative.ca/">https://www.centuryinitiative.ca/.</a>
+            To find out more, visit their website at <a href="https://www.centuryinitiative.ca/"><u>https://www.centuryinitiative.ca/</u>.</a>
             <br/><br/><b>ⓘ This web app is not associated with the Century Initative.</b> <a href="https://github.com/asharahmed/centuryapp"><u>Learn more.</u></a>
           </Typography>
         </CardContent>
