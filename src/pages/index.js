@@ -121,7 +121,7 @@ function App() {
           isFirst = index === 0,
         <Card
           key={index}
-          className={`${classes.card} ${isFirst ? classes.bounce : ""}`}
+          className={`${classes.card} ${classes.bounce}`}
           onClick={() => handleCardClick(index)}
         >
           <CardContent>
