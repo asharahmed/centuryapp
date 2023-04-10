@@ -244,7 +244,7 @@ function App() {
       <Card className={`${classes.card} ${classes.bounce}`}>
         <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
           <Typography variant="h5" component="h2" className={classes.title}>
-            <b> We can't do it alone.</b>
+            <b> We can&apos;t do it alone.</b>
             </Typography>
           <Typography variant="body1" component="p">
             <b>Canada needs you.</b>
