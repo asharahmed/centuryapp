@@ -233,7 +233,7 @@ function App() {
             <br/><br/>This can be done responsibly - progressives aim to engage Canadians in a national conversation about the benefits
             and challenges of population growth, and to develop a long-term vision and strategy for achieving this ambitious goal. 
             
-            <br/>By making sure that our public services are able to scale up with us by ensuring a well-educated and well-trained workforce and raising wages to attract and retain talent, 
+            <br/><br/>By making sure that our public services are able to scale up with us by ensuring a well-educated and well-trained workforce and raising wages to attract and retain talent, 
             we can build a stronger, more prosperous Canada.
           <br/>
           
