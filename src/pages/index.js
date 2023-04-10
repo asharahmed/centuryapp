@@ -198,7 +198,7 @@ function App() {
             </Typography>
           <Typography variant="body1" component="p">
           &quot;Canada has a long history of immigration. Millions of people from all over the world have chosen, and continue to choose, Canada as their new home. <br/><br/>
-          In 2021, more than 8.3 million people, or almost one-quarter (23.0%) of the population, were, or had ever been, a landed immigrant or permanent resident in Canada. <br/><br/>
+          <b>In 2021, more than 8.3 million people, or almost one-quarter (23.0%) of the population, were, or had ever been, a landed immigrant or permanent resident in Canada.</b> <br/><br/>
           This was the largest proportion since Confederation, topping the previous 1921 record of 22.3%, and the highest among the G7.&quot;<br/>
           <br/>
             </Typography>
