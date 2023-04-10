@@ -162,6 +162,7 @@ function App() {
           </div>
         </CardContent>
       </Card>
+
       <Card className={`${classes.card} ${classes.bounce}`}>
         <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
           <Typography variant="h5" component="h2" className={classes.title}>
@@ -176,17 +177,18 @@ function App() {
           </Typography>
         </CardContent>
       </Card>
+
       <Card className={`${classes.card} ${classes.bounce}`} >
         <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
           <Typography variant="h5" component="h2" className={classes.title}>
             <b>By 2040, 1 in 3 Canadians will be immigrants (or have a parent who is)</b>
           </Typography>
+          <PieChart data={data}/>
           <Typography variant="body1" component="p" className={classes.title}>
             By 2040, 1/3 Canadians will be born abroad or have a parent who is.
             <br/>
             <a href="https://www150.statcan.gc.ca/n1/daily-quotidien/220908/dq220908a-eng.htm">Source: Statistics Canada</a>
           </Typography>
-          <PieChart data={data}/>
         </CardContent>
       </Card>
       <Card className={`${classes.card} ${classes.bounce}`}>
