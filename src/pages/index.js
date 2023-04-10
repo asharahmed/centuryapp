@@ -221,6 +221,24 @@ function App() {
             </Typography>
             </CardContent>
       </Card>
+
+
+      <Card className={`${classes.card} ${classes.bounce}`}>
+        <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+          <Typography variant="h5" component="h2" className={classes.title}>
+            <b> How will we scale up our public services?</b>
+            </Typography>
+          <Typography variant="body1" component="p">
+            <b>As we grow, we need to make sure that our public services are able to scale up with us. </b>
+            <br/><br/>This can be done responsibly - The Century Initiative aims to engage Canadians in a national conversation about the benefits
+            and challenges of population growth, and to develop a long-term vision and strategy for achieving this ambitious goal, by making sure that
+            our public services are able to scale up with us by ensuring a well-educated and well-trained workforce and raising wages to attract and retain talent.
+          <br/>
+          
+            </Typography>
+            </CardContent>
+      </Card>
+
       <Card className={`${classes.card} ${classes.bounce}`}>
         <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
           <Typography variant="body1" component="p">
