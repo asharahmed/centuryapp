@@ -40,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
   },
 
   bounce: {
-    animation: "$bounce 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) both",
+    animation: "$bounce 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) both",
   },
   "@keyframes bounce": {
     "0%": {
