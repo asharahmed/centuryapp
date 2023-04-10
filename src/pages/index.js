@@ -48,7 +48,7 @@ const useStyles = makeStyles((theme) => ({
       opacity: 0,
     },
     "60%": {
-      transform: "translateY(-25px)",
+      transform: "translateY(-5px)",
       opacity: 1,
     },
     "75%": {
