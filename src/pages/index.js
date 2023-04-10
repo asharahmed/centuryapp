@@ -243,6 +243,18 @@ function App() {
 
       <Card className={`${classes.card} ${classes.bounce}`}>
         <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+          <Typography variant="h5" component="h2" className={classes.title}>
+            <b> We can't do it alone.</b>
+            </Typography>
+          <Typography variant="body1" component="p">
+            <b>Canada needs you.</b>
+            <Button variant="contained" color="primary" href="https://www.centuryinitiative.ca/">Join the Movement</Button>
+            </Typography>
+            </CardContent>
+      </Card>
+
+      <Card className={`${classes.card} ${classes.bounce}`}>
+        <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
           <Typography variant="body1" component="p">
             <a href="https://aahmed.ca"><b>Copyright © 2023 Ashar Ahmed. Made in Canada.</b></a>
             </Typography>
