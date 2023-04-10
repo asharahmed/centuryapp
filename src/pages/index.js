@@ -255,7 +255,7 @@ function App() {
       <Card className={`${classes.card} ${classes.bounce}`}>
         <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
           <Typography variant="body1" component="p">
-            <a href="https://greennewyork.us"><b>Inspired by the Democratic Socialists of America's <i><u>Green New York campaign</u></i>.</b></a>
+            <a href="https://greennewyork.us"><b>Inspired by the Democratic Socialists of America&apos;s <i><u>Green New York campaign</u></i>.</b></a>
             </Typography>
             </CardContent>
       </Card>
