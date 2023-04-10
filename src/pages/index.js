@@ -230,7 +230,7 @@ function App() {
             </Typography>
           <Typography variant="body1" component="p">
             <b>As we grow, we need to make sure that our public services are able to scale up with us. </b>
-            <br/><br/>We can do this the right way: progressives aim to engage Canadians in a national conversation about the benefits
+            <br/><br/>We can do this the right way: progressives are aiming to engage Canadians in a national conversation about the benefits
             and challenges of population growth, and to develop a long-term vision and strategy for achieving this ambitious goal. 
             
             <br/><br/>By making sure that our public services are able to scale up with us by ensuring a well-educated and well-trained workforce and raising wages to attract and retain talent, 
