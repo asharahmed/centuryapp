@@ -244,12 +244,12 @@ function App() {
       <Card className={`${classes.card} ${classes.bounce}`}>
         <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
           <Typography variant="h5" component="h2" className={classes.title}>
-            <b> We can&apos;t do it alone.</b>
+            <center><b>We can&apos;t do it alone.</b></center>
             </Typography>
-          <Typography variant="body1" component="p">
-            <b>Canada needs you.</b><br/><br/>
+          <Typography variant="h3" component="p">
+          <center><b>Canada needs you.</b></center><br/>
+            </Typography>
             <Button variant="contained" color="primary" href="https://www.centuryinitiative.ca/">Join the Movement</Button>
-            </Typography>
             </CardContent>
       </Card>
 
