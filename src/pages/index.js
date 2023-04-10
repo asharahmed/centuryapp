@@ -40,19 +40,20 @@ const useStyles = makeStyles((theme) => ({
   },
 
   bounce: {
-    animation: "$bounce 1s",
+    animation: "$bounce 1.5s ease-in-out infinite",
   },
   "@keyframes bounce": {
     "0%": {
       transform: "translateY(0)",
     },
     "50%": {
-      transform: "translateY(-5px)",
+      transform: "translateY(-20px)",
     },
     "100%": {
       transform: "translateY(0)",
     },
   },
+  
 
   card: {
     minWidth: "80vw",
