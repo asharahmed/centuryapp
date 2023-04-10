@@ -199,7 +199,7 @@ function App() {
           In 2021, more than 8.3 million people, or almost one-quarter (23.0%) of the population, were, or had ever been, a landed immigrant or permanent resident in Canada. <br/><br/>
           This was the largest proportion since Confederation, topping the previous 1921 record of 22.3%, and the highest among the G7.&quot;<br/>
           <br/>
-          <a href="https://www150.statcan.gc.ca/n1/daily-quotidien/221026/dq221026a-eng.htm">Source: Statistics Canada</a>
+          <Button variant="contained" color="primary" href="https://www150.statcan.gc.ca/n1/daily-quotidien/221026/dq221026a-eng.htm">Source: Statistics Canada</Button>
             </Typography>
             </CardContent>
       </Card>
@@ -214,8 +214,6 @@ function App() {
             and challenges of population growth, and to develop a long-term vision and strategy for achieving this ambitious goal. 
             The organization believes that a larger population can help Canada address some of its most pressing social, economic, and environmental challenges, 
             such as an aging population, declining workforce, and the need for innovation and entrepreneurship.
-
-
           <br/>
           
             </Typography>
