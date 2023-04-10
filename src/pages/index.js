@@ -250,7 +250,8 @@ function App() {
           <center><b>Canada needs you.</b></center><br/>
             </Typography>
             <Button variant="contained" color="primary" href="https://www.centuryinitiative.ca/">Join the Movement</Button><br/>
-            <Button variant="contained" color="primary" href="https://www.ourcommons.ca/Members/en/search">Contact your MP</Button>
+
+            <Button variant="" color="secondary" href="https://www.ourcommons.ca/">Contact your MP</Button>
             </CardContent>
       </Card>
       <Card className={`${classes.card} ${classes.bounce}`}>
