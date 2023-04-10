@@ -241,7 +241,7 @@ function App() {
             </CardContent>
       </Card>
 
-      <Card className={`${classes.card} ${classes.bounce}`}>
+      <Card className={`${classes.card} ${classes.bounce}`} style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
         <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
           <Typography variant="h5" component="h2" className={classes.title}>
             <center><b>We can&apos;t do it alone.</b></center>
@@ -250,12 +250,9 @@ function App() {
           <center><b>Canada needs you.</b></center><br/>
           
             </Typography>
-            <Button variant="contained" color="secondary" href="https://www.ourcommons.ca">Contact your MP</Button><br/>
-            <Button variant="contained" color="primary" href="https://www.centuryinitiative.ca/">Join the Movement</Button><br/>
-            
-            
-            
+            <Button variant="contained" id="btn1" color="info" href="https://www.ourcommons.ca">Contact your MP</Button><br/>
             </CardContent>
+            <Button variant="contained" id="btn2" color="primary" href="https://www.centuryinitiative.ca/">Join the Movement</Button><br/>
       </Card>
       <Card className={`${classes.card} ${classes.bounce}`}>
         <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
