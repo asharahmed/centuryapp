@@ -38,6 +38,22 @@ const useStyles = makeStyles((theme) => ({
     overflowY: "scroll",
     minHeight: "100vh",
   },
+
+  bounce: {
+    animation: "$bounce 1s",
+  },
+  "@keyframes bounce": {
+    "0%": {
+      transform: "translateY(0)",
+    },
+    "50%": {
+      transform: "translateY(-5px)",
+    },
+    "100%": {
+      transform: "translateY(0)",
+    },
+  },
+
   card: {
     minWidth: "80vw",
     padding: theme.spacing(3),
@@ -97,12 +113,15 @@ function App() {
     setExpandedCard(null);
   };
 
+
   return (
+    
     <div className={classes.root}>
       {cards.map((card, index) => (
+          isFirst = index === 0,
         <Card
           key={index}
-          className={`${classes.card} ${isExpanded(index) ? classes.expandedCard : ''}`}
+          className={`${classes.card} ${isFirst ? classes.bounce : ""}`}
           onClick={() => handleCardClick(index)}
         >
           <CardContent>
@@ -176,7 +195,7 @@ function App() {
       <Card className={classes.card}>
         <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
           <Typography variant="h5" component="h2" className={classes.title}>
-            <b> Why does 🇨🇦 need an influx of people?</b>
+            <b> Why does Canada need an influx of people?</b>
             </Typography>
           <Typography variant="body1" component="p">
             <b>Canada&apos;s population is aging, and the number of people working to support the population is decreasing. To counter this trend and maintain our standard of living, we need to increase the number of people living in Canada. </b>
