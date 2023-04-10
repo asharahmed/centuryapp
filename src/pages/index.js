@@ -133,12 +133,12 @@ function App() {
           </div>
         </CardContent>
       </Card>
-      <Card className={classes.card} style={{height: "35vh"}}>
+      <Card className={classes.card}>
         <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
           <Typography variant="h5" component="h2" className={classes.title}>
             <b>The Century Initiative</b>
           </Typography>
-          <Typography variant="body1" component="p" className={classes.title}>
+          <Typography variant="body1" component="p">
             The Century Initiative is a group of Canadians committed to building a prosperous, vibrant, and globally influential Canada by growing the population to 100 million by 2100.
             <br/><br/>
             To find out more, visit their website at <a href="https://www.centuryinitiative.ca/">https://www.centuryinitiative.ca/.</a>
