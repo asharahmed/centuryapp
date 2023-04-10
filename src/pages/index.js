@@ -16,7 +16,7 @@ import { useState } from "react";
 import { CssBaseline } from "@mui/material";
 
 const data = [
-  { label: "Canada", value: "2" },
+  { label: "Canada", value: " 2" },
   { label: "Abroad", value: "1" },
 ];
 
@@ -168,6 +168,25 @@ function App() {
           &quot;Canada has a long history of immigration. Millions of people from all over the world have chosen, and continue to choose, Canada as their new home. <br/><br/>
           In 2021, more than 8.3 million people, or almost one-quarter (23.0%) of the population, were, or had ever been, a landed immigrant or permanent resident in Canada. <br/><br/>
           This was the largest proportion since Confederation, topping the previous 1921 record of 22.3%, and the highest among the G7.&quot;<br/>
+          <br/>
+          <a href="https://www150.statcan.gc.ca/n1/daily-quotidien/221026/dq221026a-eng.htm">Source: Statistics Canada</a>
+            </Typography>
+            </CardContent>
+      </Card>
+      <Card className={classes.card}>
+        <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+          <Typography variant="h5" component="h2" className={classes.title}>
+            <b>Why does Canada need an influx of immigration?</b>
+            </Typography>
+          <Typography variant="body1" component="p">
+            Canada&apos;s population is aging, and the number of people working to support the population is decreasing. <br/>
+            To counter this trend and maintain our standard of living, we need to increase the number of people living in Canada. <br/>
+            This can be done responsibly - The Century Initiative aims to engage Canadians in a national conversation about the benefits 
+            and challenges of population growth, and to develop a long-term vision and strategy for achieving this ambitious goal. 
+            The organization believes that a larger population can help Canada address some of its most pressing social, economic, and environmental challenges, 
+            such as an aging population, declining workforce, and the need for innovation and entrepreneurship.
+
+
           <br/>
           <a href="https://www150.statcan.gc.ca/n1/daily-quotidien/221026/dq221026a-eng.htm">Source: Statistics Canada</a>
             </Typography>
