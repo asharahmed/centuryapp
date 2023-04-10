@@ -138,7 +138,7 @@ function App() {
           <Typography variant="h5" component="h2" className={classes.title}>
             <b>The Century Initiative</b>
           </Typography>
-          <Typography variant="body1" component="p">
+          <Typography variant="body1" component="p" className={classes.title}>
             The Century Initiative is a group of Canadians committed to building a prosperous, vibrant, and globally influential Canada by growing the population to 100 million by 2100.
             <br/><br/>
             To find out more, visit their website at <a href="https://www.centuryinitiative.ca/">https://www.centuryinitiative.ca/.</a>
