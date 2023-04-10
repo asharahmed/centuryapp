@@ -248,11 +248,12 @@ function App() {
             </Typography>
           <Typography variant="h3" component="p">
           <center><b>Canada needs you.</b></center><br/>
+          
             </Typography>
-            
+            <Button variant="contained" color="secondary" href="https://www.ourcommons.ca">Contact your MP</Button><br/>
             <Button variant="contained" color="primary" href="https://www.centuryinitiative.ca/">Join the Movement</Button><br/>
             
-            <a href="https://ourcommons.ca/members/en">Contact your MP</a>
+            
             
             </CardContent>
       </Card>
