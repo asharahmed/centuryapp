@@ -256,7 +256,7 @@ function App() {
       <Card className={`${classes.card} ${classes.bounce}`}>
         <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
           <Typography variant="body1" component="p">
-            <a href="https://aahmed.ca"><b>Copyright © 2023 Ashar Ahmed. Made in Canada.</b></a>
+            <a href="https://aahmed.ca"><b>Copyright © 2023 Ashar Ahmed. Made in Canada. Assembled in 🗽.</b></a>
             </Typography>
             </CardContent>
       </Card>
