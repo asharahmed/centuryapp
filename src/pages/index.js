@@ -180,7 +180,7 @@ function App() {
             </Typography>
           <Typography variant="body1" component="p">
             <b>Canada&apos;s population is aging, and the number of people working to support the population is decreasing. To counter this trend and maintain our standard of living, we need to increase the number of people living in Canada. </b>
-            This can be done responsibly - The Century Initiative aims to engage Canadians in a national conversation about the benefits 
+            <br/>This can be done responsibly - The Century Initiative aims to engage Canadians in a national conversation about the benefits 
             and challenges of population growth, and to develop a long-term vision and strategy for achieving this ambitious goal. 
             The organization believes that a larger population can help Canada address some of its most pressing social, economic, and environmental challenges, 
             such as an aging population, declining workforce, and the need for innovation and entrepreneurship.
