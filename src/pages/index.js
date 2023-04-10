@@ -252,7 +252,7 @@ function App() {
             </Typography>
             <Button variant="contained" id="btn1" color="error" href="https://www.ourcommons.ca/members/en">Contact your MP</Button><br/>
             </CardContent>
-            <Button variant="contained" id="btn2" color="primary" href="https://www.centuryinitiative.ca/">Join the Movement</Button><br/>
+            <Button variant="contained" id="btn2" color="primary" href="https://www.centuryinitiative.ca/">Join</Button><br/>
       </Card>
       <Card className={`${classes.card} ${classes.bounce}`}>
         <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
