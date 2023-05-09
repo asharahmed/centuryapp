@@ -181,7 +181,7 @@ function App() {
       <Card className={`${classes.card} ${classes.bounce}`} >
         <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
           <Typography variant="h5" component="h2" className={classes.title}>
-            <b>By 2040, 1 in 3 Canadians will be immigrants (or have a parent who is)</b>
+            <b>By 2040, 1 in 3 Canadians will be born abroad (or have a parent who is)</b>
           </Typography>
           <PieChart data={data}/>
           <Typography variant="body1" component="p" className={classes.title}>
