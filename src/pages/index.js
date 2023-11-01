@@ -257,14 +257,7 @@ function App() {
       <Card className={`${classes.card} ${classes.bounce}`}>
         <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
           <Typography variant="body1" component="p">
-            <a href="https://greennewyork.us"><b>Inspired by the Democratic Socialists of America&apos;s 🌹 <i><u>Green New York campaign</u></i>.</b></a>
-            </Typography>
-            </CardContent>
-      </Card>
-      <Card className={`${classes.card} ${classes.bounce}`}>
-        <CardContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-          <Typography variant="body1" component="p">
-            <a href="https://aahmed.ca"><b>Copyright © 2023 <u>aahmed.ca</u>. Made in 🍁. Assembled in 🗽.</b></a>
+            <a href="https://aahmed.ca"><b>2023 <u>aahmed.ca</u>.</b></a>
             </Typography>
             </CardContent>
       </Card>
